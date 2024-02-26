@@ -4,16 +4,24 @@
 body {
     font-family: 'Noto Sans JP', sans-serif;
     background-color: rgb(223, 232, 235);
-    margin: 0px 50px;
+    margin: 0px 35px;
 }
 
-div.headerbar{
+.headerbar{
     display: block;
     background-color: rgb(159, 184, 177);
     height: 3em;
     line-height: 0em;
     padding: 1em 1em;
 
+}
+
+.headerbar a {
+    text-decoration: none;
+}
+
+.headerbar a:visited {
+    color: black;
 }
 
 .discription{
