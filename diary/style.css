@@ -30,7 +30,7 @@ body {
 }
 
 .day_title{
-    text-decoration: rgba(240, 25, 10, 0.384) underline;
+    text-decoration: rgba(240, 25, 10, 0.384) underline dashed;
     font-size: 110%;
 }
 
