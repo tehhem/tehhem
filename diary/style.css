@@ -30,14 +30,14 @@ body {
 }
 
 .day_title{
-	text-decoration: rgba(240, 25, 10, 0.384) underline dashed;
-   -webkit-text-decoration: rgba(240, 25, 10, 0.384) underline;
+    text-decoration: rgba(240, 25, 10, 0.384) underline dashed;
+   -webkit-text-decoration: rgba(240, 25, 10, 0.384) underline dashed;
     font-size: 110%;
 }
 
 blockquote{
     display: block;
-    background-color: rgb(235, 235, 220);
+    background-color: rgb(241, 241, 233);
 }
 
 .footer{
