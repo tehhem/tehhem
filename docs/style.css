@@ -18,6 +18,7 @@ body {
 
 .headerbar a {
     text-decoration: none;
+    webkit-text-decoration: none;
 }
 
 .headerbar a:visited {
