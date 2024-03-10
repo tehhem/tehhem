@@ -37,8 +37,11 @@ img{
 video{
     max-width: 50%;
     height: auto;
+    display: block;
+    background-color: bisque;
 }
 
 .footer{
     text-align: center;
+    overflow: hidden;
 }
