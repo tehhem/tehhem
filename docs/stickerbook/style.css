@@ -1,0 +1,45 @@
+	
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: rgb(237, 237, 226);
+    margin: 0px 35px;
+}
+
+.headerbar{
+    display: block;
+    background-color: rgb(223, 181, 181);
+    height: 3em;
+    line-height: 0em;
+    padding: 1em 1em;
+
+}
+
+.headerbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.headerbar a:visited {
+    color: black;
+}
+
+.discription{
+    padding: 0px 1em;
+}
+
+main{
+    display: block;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.footer{
+    text-align: right;
+    font-size: small;
+}
+
+.footer span{
+    font-size: 12px;
+}
