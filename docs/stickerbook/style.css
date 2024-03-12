@@ -6,7 +6,9 @@
 body {
     font-family: "Zen Maru Gothic", serif;
     background-color: rgb(237, 237, 226);
-    margin: 0px 35px;
+    margin: auto;
+    padding:0 20px;
+    max-width:900px;
 }
 
 .headerbar{
