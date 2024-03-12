@@ -1,5 +1,6 @@
 	
-@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjp.css');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
@@ -8,6 +9,7 @@ body {
 }
 
 .headerbar{
+    font-family: "Zen Old Mincho", serif;
     display: block;
     background-color: rgb(159, 184, 177);
     height: 3em;
@@ -25,6 +27,12 @@ a:visited {
     color: black;
 }
 
+a :hover{
+    text-decoration: underline dashed;
+}
+
+
+
 .discription{
     padding: 0px 1em;
     font-style: italic;
@@ -35,6 +43,11 @@ div.contentlink{
     margin: 1em;
 }
 
+.desk{
+    margin-bottom: 8px;
+}
+
+
 .footer{
     text-align: right;
     font-size: small;
@@ -42,4 +55,8 @@ div.contentlink{
 
 .footer span{
     font-size: 12px;
+}
+
+.xlink{
+    font-size: large;
 }
