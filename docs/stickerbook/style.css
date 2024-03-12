@@ -1,3 +1,4 @@
+	
 /* @import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css); */
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');
@@ -25,6 +26,9 @@ body {
 .headerbar a:visited {
     color: black;
 }
+a :hover{
+    text-decoration: underline dashed;
+}
 
 .discription{
     padding: 0px 1em;
@@ -34,7 +38,17 @@ main{
     display: block;
     border-radius: 30px;
     background-color: white;
+    padding: 1em;
 }
+
+/* .group-01{
+    display: block;
+}
+
+.group-02{
+    display: block;
+    margin-top: -4em;
+} */
 
 .footer{
     text-align: right;
