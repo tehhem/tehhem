@@ -1,15 +1,20 @@
 	
 @import url('https://fonts.googleapis.com/earlyaccess/notosansjp.css');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
+    /* font-family: "Klee One", cursive; */
+    /* font-family: "Hina Mincho", serif; */
     background-color: rgb(223, 232, 235);
-    margin: 0px 35px;
+    margin: auto;
+    padding:0 20px;
+    max-width:900px;
 }
 
 .headerbar{
-    font-family: "Zen Old Mincho", serif;
     display: block;
     background-color: rgb(159, 184, 177);
     height: 3em;
@@ -19,12 +24,23 @@ body {
 }
 
 .headerbar a {
+    font-family: "Zen Old Mincho", serif;
     text-decoration: none;
     color: black;
 }
 
-a:visited {
+.headerbar a:visited {
     color: black;
+}
+
+/* .headerbar span{
+    font-family: Noto Sans JP , sans-serif;
+} */
+
+.discription{
+    padding: 0px 1em;
+    margin: 10px 0;
+
 }
 
 a :hover{
@@ -33,30 +49,41 @@ a :hover{
 
 
 
-.discription{
-    padding: 0px 1em;
+.day_title{
+    text-decoration: rgba(240, 25, 10, 0.384) underline dashed;
+   -webkit-text-decoration: rgba(240, 25, 10, 0.384) underline dashed;
+   margin: 0 0 0 0;
+   font-weight: 500;
+    /* font-size: 100%; */
+}
+
+div.text{
+    margin-bottom: 3em;
+}
+
+/* img.sticker-turtle{
+    display: block;
+   width: 50px;
+} */
+
+blockquote{
+    display: block;
+    background-color: rgb(241, 241, 233);
     font-style: italic;
-    font-size: small;
 }
 
-div.contentlink{
-    margin: 1em;
+img.attached{
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
-.desk{
-    margin-bottom: 8px;
+#rirerence {
+    font-style: normal;
 }
-
 
 .footer{
-    text-align: right;
-    font-size: small;
-}
-
-.footer span{
-    font-size: 12px;
-}
-
-.xlink{
-    font-size: large;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
