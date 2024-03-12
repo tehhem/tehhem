@@ -9,7 +9,9 @@ body {
     /* font-family: "Klee One", cursive; */
     /* font-family: "Hina Mincho", serif; */
     background-color: rgb(223, 232, 235);
-    margin: 0px 35px;
+    margin: auto;
+    padding:0 20px;
+    max-width:900px;
 }
 
 .headerbar{
