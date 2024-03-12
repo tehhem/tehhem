@@ -33,6 +33,7 @@ a:visited {
 
 a :hover{
     text-decoration: underline dashed;
+	-webkittext-decoration: underline dashed;
 }
 
 
