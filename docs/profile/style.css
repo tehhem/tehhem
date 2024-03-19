@@ -1,0 +1,67 @@
+	
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjp.css');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    /* font-family: "Klee One", cursive; */
+    /* font-family: "Hina Mincho", serif; */
+    background-color: rgb(223, 232, 235);
+    margin: auto;
+    padding:0 20px;
+    max-width:900px;
+}
+
+.headerbar{
+    font-family: "Zen Old Mincho", serif;
+    display: block;
+    background-color: rgb(159, 184, 177);
+    height: 3em;
+    line-height: 0em;
+    padding: 1em 1em;
+
+}
+
+.headerbar a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a :hover{
+    text-decoration: underline dashed;
+	-webkittext-decoration: underline dashed;
+}
+
+
+
+.discription{
+    padding: 0px 1em;
+    margin: 10px 0;
+
+}
+
+div.contentlink{
+    margin: 1em;
+}
+
+.desk{
+    margin-bottom: 8px;
+}
+
+
+.footer{
+    text-align: right;
+    font-size: small;
+}
+
+.footer span{
+    font-size: 12px;
+}
+
+.xlink{
+    font-size: large;
+}
