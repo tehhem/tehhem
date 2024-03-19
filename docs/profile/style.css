@@ -62,9 +62,12 @@ img{
     font-size: small;
 }
 
-.footer span{
-    font-size: 12px;
+.footer{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
+
 
 .xlink{
     font-size: large;
