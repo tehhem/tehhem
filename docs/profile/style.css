@@ -44,12 +44,16 @@ a :hover{
 
 }
 
-div.contentlink{
-    margin: 1em;
+
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
-.desk{
-    margin-bottom: 8px;
+.profile-img{
+    max-width: 30%;
 }
 
 
