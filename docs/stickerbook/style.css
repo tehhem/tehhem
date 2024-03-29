@@ -28,12 +28,22 @@ body {
 .headerbar a:visited {
     color: black;
 }
+
+a:link{
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
 a :hover{
     text-decoration: underline dashed;
 }
 
 .discription{
     padding: 0px 1em;
+    margin: 10px 0;
 }
 
 main{

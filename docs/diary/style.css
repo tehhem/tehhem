@@ -43,6 +43,14 @@ body {
 
 }
 
+a:link{
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
 a :hover{
     text-decoration: underline dashed;
 }
