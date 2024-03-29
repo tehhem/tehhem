@@ -74,6 +74,10 @@ div.text{
    width: 50px;
 } */
 
+.song{
+    font-style: italic;
+}
+
 blockquote{
     display: block;
     background-color: rgb(241, 241, 233);
