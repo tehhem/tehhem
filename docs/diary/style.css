@@ -74,6 +74,10 @@ div.text{
    width: 50px;
 } */
 
+.diary_contents h4{
+    font-weight:500;
+}
+
 .song{
     font-style: italic;
 }
