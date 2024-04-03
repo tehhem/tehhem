@@ -43,6 +43,10 @@ body {
 
 }
 
+.diary_contents p{
+    margin: 5px 0;
+}
+
 a:link{
     color: black;
 }
