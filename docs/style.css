@@ -27,6 +27,10 @@ body {
     color: black;
 }
 
+img{
+    max-width: 100%;
+}
+
 a:link{
     color: black;
 }
@@ -50,6 +54,15 @@ a :hover{
 
 div.contentlink{
     margin: 1em;
+}
+
+.contentlink p{
+
+    margin: 3px 0;
+}
+
+.contentlink span{
+    font-size: 14px;
 }
 
 .desk{
