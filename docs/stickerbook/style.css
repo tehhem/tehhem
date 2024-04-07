@@ -63,7 +63,15 @@ main{
     linear-gradient(to bottom,
     transparent 23px, #aaa 24px);
     background-size: 24px 24px;
+
+    display: flex;
 }
+
+.sticker03{
+    transform: translateY(-20%);
+}
+
+
 
 /* .group-01{
     display: block;
