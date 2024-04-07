@@ -9,6 +9,8 @@ body {
     margin: auto;
     padding:0 20px;
     max-width:900px;
+
+    
 }
 
 .headerbar{
@@ -50,7 +52,17 @@ main{
     display: block;
     border-radius: 30px;
     background-color: white;
-    padding: 1em;
+    padding: 0.7em;
+
+    
+}
+
+.page{
+    background: linear-gradient(to right,
+    transparent 23px, #aaa 24px),
+    linear-gradient(to bottom,
+    transparent 23px, #aaa 24px);
+    background-size: 24px 24px;
 }
 
 /* .group-01{
