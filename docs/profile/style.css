@@ -46,6 +46,7 @@ a :hover{
 
 .name{
     display: flex;
+	align-items: flex-start;
 }
 
 .works{
