@@ -44,9 +44,14 @@ a :hover{
 
 }
 
+.name{
+    display: flex;
+}
+
 .works{
     margin: 0 0 1.8em 0;
 }
+
 
 
 
