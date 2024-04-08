@@ -46,17 +46,39 @@ a :hover{
     text-decoration: underline dashed;
 }
 
+body a:hover{
+    text-decoration: underline dashed;
+}
+
 img{
     max-width: 100%;
+    min-width: 0;
     height: auto;
     display: block;
+    
 }
 
 video{
-    max-width: 70%;
+    max-width: 100%;
+    min-width: 0;
     height: auto;
     display: block;
     background-color:white;
+    
+}
+
+.board{
+    max-width: 100%;
+    margin-bottom: 2em;
+    
+}
+
+.board_row{
+    max-width: 100%;
+    margin-bottom: 2em;
+    display: flex;
+    gap: 0px 1.5%;
+    width: 900px;
 }
 
 

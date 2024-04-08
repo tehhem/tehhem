@@ -43,7 +43,7 @@ body {
 
 }
 
-.diary_contents p{
+.photo_contents p{
     margin: 5px 0;
 }
 
@@ -57,7 +57,20 @@ a:visited {
 
 a :hover{
     text-decoration: underline dashed;
+    
 }
+
+.photo_contents :hover img{
+    
+    opacity: 0.6;
+    transition-duration: 0.3s;
+
+}
+
+body a:hover{
+    text-decoration:underline dashed ;
+}
+
 
 
 
@@ -78,7 +91,7 @@ div.text{
    width: 50px;
 } */
 
-.diary_contents h4{
+.photo_contents h4{
     font-weight:500;
 }
 

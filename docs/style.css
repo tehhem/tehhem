@@ -65,7 +65,7 @@ div.contentlink{
     font-size: 14px;
 }
 
-.contentlink a:hover{
+body a:hover{
     text-decoration:underline dashed ;
 }
 
