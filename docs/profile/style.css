@@ -51,6 +51,7 @@ body a:hover{
 .myname{
     display: flex;
     align-items: flex-start;
+    gap:0 1.5%;
 }
 
 .works{
