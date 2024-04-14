@@ -71,20 +71,28 @@ main{
     display: flex;
 }
 
-.sticker03{
+img{
+    max-width: 100%;
+    min-width: 0;
+}
+
+
+
+@media (min-width: 500px) {
+.board{
+    max-width: 100%;
+    min-width: 0;
+    display: flex;
+    flex-direction: row ;
+    align-items: flex-start;
+    
+}
+}
+
+.sticker_pika{
     transform: translateY(-20%);
 }
 
-
-
-/* .group-01{
-    display: block;
-}
-
-.group-02{
-    display: block;
-    margin-top: -4em;
-} */
 
 .footer{
     text-align: right;
