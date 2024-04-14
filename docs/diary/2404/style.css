@@ -71,6 +71,11 @@ div.text{
     margin-bottom: 3em;
 }
 
+.sticker_umasan{
+    
+    transform: translateY(+10%);
+    
+}
 
 
 /* img.sticker-turtle{
