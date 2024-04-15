@@ -53,9 +53,23 @@ body a:hover{
     align-items: flex-start;
     flex-direction: row;
     gap:0 1.5%;
+    margin-bottom: 1rem;
 }
 
+@media (min-width: 500px) {
+
 .works{
+    max-width: 100%;
+    min-width: 0%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+    
+
+}
+.works{
+    
     margin: 0 0 1.8em 0;
 }
 
