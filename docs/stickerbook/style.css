@@ -52,6 +52,11 @@ body a:hover{
     margin: 10px 0;
 }
 
+.discription span{
+    font-weight: 500;
+    font-size: medium;
+}
+
 main{
     display: block;
     border-radius: 30px;
