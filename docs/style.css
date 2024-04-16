@@ -74,6 +74,22 @@ body a:hover{
     margin-bottom: 8px;
 }
 
+.drawer{
+    display: flex;
+}
+
+.drawer :nth-child(1){
+    margin-right: 0.7rem;
+}
+
+.kurage{
+    display: block;
+    background-color: rgba(159, 177, 184, 0.641);
+}
+
+/* .hide{
+    text-decoration: none;
+} */
 
 .footer{
     text-align: right;
