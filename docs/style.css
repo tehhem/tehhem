@@ -76,10 +76,14 @@ body a:hover{
 
 .drawer{
     display: flex;
+    min-width: 0%;
+    max-width: 100%;
+    flex-shrink: 0;
 }
 
 .drawer :nth-child(1){
     margin-right: 0.7rem;
+    margin-top: 0.5rem;
 }
 
 .kurage{
