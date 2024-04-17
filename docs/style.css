@@ -79,6 +79,7 @@ body a:hover{
     min-width: 0%;
     max-width: 100%;
     flex-shrink: 0;
+    flex-grow: auto;
 }
 
 .drawer :nth-child(1){
