@@ -82,7 +82,7 @@ body a:hover{
     flex-grow: auto;
 }
 
-.drawer :nth-child(1){
+/* .drawer :nth-child(1){
     margin-right: 0.7rem;
     margin-top: 0.5rem;
 }
@@ -90,7 +90,7 @@ body a:hover{
 .kurage{
     display: block;
     background-color: rgba(159, 177, 184, 0.641);
-}
+} */
 
 /* .hide{
     text-decoration: none;
