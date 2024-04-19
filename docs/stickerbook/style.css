@@ -83,7 +83,7 @@ img{
 
 
 
-@media (min-width: 500px) {
+/* @media (min-width: 500px) {
 .board{
     max-width: 100%;
     min-width: 0;
@@ -92,8 +92,17 @@ img{
     align-items: flex-start;
     
 }
-}
+} */
 
+.board{
+    max-width: 100%;
+    min-width: 0;
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: flex-start;
+        
+}
+    
 .sticker_pika{
     transform: translateY(-20%);
 }
