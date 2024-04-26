@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Noto Sans JP', sans-serif;
     /* font-family: "Klee One", cursive; */
