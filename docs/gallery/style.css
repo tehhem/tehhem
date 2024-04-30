@@ -7,7 +7,7 @@ body {
     background-color: rgb(223, 232, 235);
     margin: auto;
     padding:0 20px;
-    max-width:900px;
+    
 }
 
 .headerbar{
@@ -50,37 +50,122 @@ body a:hover{
     text-decoration: underline dashed;
 }
 
-img{
-    max-width: 100%;
-    min-width: 0;
-    height: auto;
-    display: block;
-    
+.shika{
+    max-width: 30%;
 }
 
-video{
-    max-width: 100%;
-    min-width: 0;
-    height: auto;
-    display: block;
-    background-color:white;
+/* pcレイアウト */
+@media (min-width: 900px) {
     
-}
+    
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0px 1.5%;
+    }
 
-.board{
+
+    img{
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+        display: block;
+        
+    }
+    
+    video{
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+        display: block;
+        background-color:white;
+        
+    }
+
+    
+    .board{
     max-width: 100%;
     margin-bottom: 2em;
+    max-width:900px;
     
-}
+    }
 
-.board_row{
+    .board_row{
+    
     max-width: 100%;
-    margin-bottom: 2em;
     display: flex;
     align-items: flex-start;
     gap: 0px 1.5%;
     width: 900px;
+    }
+
+    .board_column{
+        max-width: 100%;
+        
+        margin-bottom: 2em;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 1.5% ;
+        
+    }
+
 }
+
+
+
+@media (max-width: 900px) {
+
+    img{
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+        display: block;
+        
+    }
+    
+    video{
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+        display: block;
+        background-color:white;
+        
+    }
+
+    
+
+    .board{
+    max-width: 100%;
+    margin-bottom: 2em;
+        
+    }
+    
+    .board_row{
+        max-width: 100%;
+        
+        display: flex;
+        align-items: flex-start;
+        gap: 0px 1.5%;
+        width: 900px;
+    }
+
+    .board_column{
+        max-width: 100%;
+        min-width: 0;
+        margin-bottom: 2em;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        
+    }
+    
+
+}
+
+
+
 
 
 .footer{
