@@ -102,9 +102,13 @@ img{
     max-width: 100%;
 }
 
-video{
+@media(min-width: 900px){
+    video{
     max-width: 50%;
 }
+
+}
+
 
 img.attached{
     max-width: 100%;
