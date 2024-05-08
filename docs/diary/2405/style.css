@@ -98,6 +98,10 @@ blockquote{
     margin:16px 6%;
 }
 
+a {
+    word-break: break-all;
+   }
+
 img{
     max-width: 100%;
 }
