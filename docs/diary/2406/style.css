@@ -81,6 +81,9 @@ div.text{
     
 }
 
+.sticker_kame{
+    transform: translateY(+20%);
+}
 
 /* img.sticker-turtle{
     display: block;
