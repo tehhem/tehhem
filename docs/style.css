@@ -23,6 +23,10 @@ body {
 
 }
 
+.headerbar　h1{
+	font-weight:normal;
+}
+
 .headerbar a {
     text-decoration: none;
     color: black;
