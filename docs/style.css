@@ -15,6 +15,7 @@ body {
 .headerbar{
     font-family: "Zen Old Mincho", serif;
     font-weight: normal;
+	-webkitfont-weight:normal;
     display: block;
     background-color: rgb(159, 184, 177);
     height: 3em;
