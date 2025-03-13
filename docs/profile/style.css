@@ -64,6 +64,10 @@ body a:hover{
     margin-right: 1.5%;
 }
 
+.card{
+    font-size: small;
+}
+
 @media (min-width: 500px) {
 
 .works{
