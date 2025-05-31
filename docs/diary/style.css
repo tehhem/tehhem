@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
 
+html{
+		scroll-behavior: smooth;
+}
+ 
 body {
     font-family: 'Noto Sans JP', sans-serif;
     /* font-family: "Klee One", cursive; */
@@ -64,7 +68,6 @@ body a:hover{
 }
 
 
-
 .day_title{
     text-decoration: rgba(240, 25, 10, 0.384) underline dashed;
    -webkit-text-decoration: rgba(240, 25, 10, 0.384) underline dashed;
@@ -75,6 +78,14 @@ body a:hover{
 
 div.text{
     margin-bottom: 3em;
+}
+
+.sticker_umasan{
+		transform: translateY(+10%);
+}
+
+.sticker_kame{
+		transform: translateY(+20%);
 }
 
 /* img.sticker-turtle{
@@ -96,8 +107,16 @@ blockquote{
     font-style: italic;
 }
 
+a{
+		word-break: break-all;
+}
+
 img{
     max-width: 100%;
+}
+
+video{
+	max-width: 100%
 }
 
 img.attached{
