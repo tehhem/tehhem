@@ -102,7 +102,7 @@ blockquote{
     display: block;
     background-color: rgb(241, 241, 233);
     font-style: italic;
-    padding: ;
+    margin: 16px 20px ;
 }
 
 blockquote + p {
