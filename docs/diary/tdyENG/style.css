@@ -10,7 +10,19 @@ html{
  
 body {
     font-family: 'Noto Sans JP', sans-serif;
-    /* font-family: "Klee One", cursive; */
+ iframe {
+  iframe {
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;  overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;   /* font-family: "Klee One", cursive; */
     /* font-family: "Hina Mincho", serif; */
     background-color: rgb(223, 232, 235);
     margin: auto;
@@ -50,7 +62,13 @@ body {
 .diary_contents p{
     margin: 5px 0;
 }
-
+iframe {
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
 a:link{
     color: black;
 }
