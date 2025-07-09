@@ -10,8 +10,7 @@ html{
  
 body {
     font-family: 'Noto Sans JP', sans-serif;
- iframe {
-  iframe {
+iframe {
     overflow-clip-margin: content-box !important;
     overflow: clip !important;
     border-width: 2px;
