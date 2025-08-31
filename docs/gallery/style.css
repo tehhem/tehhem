@@ -55,7 +55,7 @@ body a:hover{
     max-width: 30%;
 }
 
-/* pcレイアウト */
+/* pcレイアウト
 @media (min-width: 900px) {
     
     
@@ -112,11 +112,11 @@ body a:hover{
         
     }
 
-}
+} */
 
 
 
-@media (max-width: 900px) {
+
 
     img{
         max-width: 100%;
@@ -163,7 +163,7 @@ body a:hover{
     }
     
 
-}
+
 
 
 
