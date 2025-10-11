@@ -58,6 +58,11 @@ a :hover{
     font-size: small;
 }
 
+.eva{
+    width:100%; 
+    height:1.5vh;
+}
+
 div.contentlink{
     margin: 1em;
 }
