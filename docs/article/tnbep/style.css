@@ -101,7 +101,7 @@ div.text{
 blockquote{
     display: block;
     background-color: rgb(241, 241, 233);
-    font-style: italic;
+    /* font-style: italic; */
     margin: 16px 20px ;
 }
 
