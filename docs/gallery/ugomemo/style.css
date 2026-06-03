@@ -1,0 +1,176 @@
+	
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjp.css');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: rgb(223, 232, 235);
+    margin: auto;
+    padding:0 20px;
+		max-width:900px;
+    
+}
+
+.headerbar{
+    font-family: "Zen Old Mincho", serif;
+    display: block;
+    background-color: rgb(159, 184, 177);
+    height: 3em;
+    line-height: 0em;
+    padding: 1em 1em;
+
+}
+
+.headerbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.headerbar a:visited {
+    color: black;
+}
+
+.discription{
+    padding: 0px 1em;
+    margin: 10px 0;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a :hover{
+    text-decoration: underline dashed;
+}
+
+body a:hover{
+    text-decoration: underline dashed;
+}
+
+.shika{
+    max-width: 30%;
+}
+
+/* pcレイアウト
+@media (min-width: 900px) {
+    
+    
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0px 1.5%;
+    }
+
+
+    img{
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+        display: block;
+        
+    }
+    
+    video{
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+        display: block;
+        background-color:white;
+        
+    }
+
+    
+    .board{
+    max-width: 100%;
+    margin-bottom: 2em;
+    max-width:900px;
+    
+    }
+
+    .board_row{
+    
+    max-width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 0px 1.5%;
+    width: 900px;
+    }
+
+    .board_column{
+        max-width: 100%;
+        
+        margin-bottom: 2em;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 1.5% ;
+        
+    }
+
+} */
+
+
+
+
+
+    img{
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+        display: block;
+        
+    }
+    
+    video{
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+        display: block;
+        background-color:white;
+        
+    }
+
+    
+
+    .board{
+    max-width: 100%;
+    margin-bottom: 2em;
+        
+    }
+    
+    .board_row{
+        max-width: 100%;
+        
+        display: flex;
+        align-items: flex-start;
+        gap: 0px 1.5%;
+        width: 900px;
+    }
+
+    .board_column{
+        max-width: 100%;
+        min-width: 0;
+        margin-bottom: 2em;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        
+    }
+    
+
+
+
+
+
+
+
+.footer{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
