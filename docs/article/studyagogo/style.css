@@ -15,7 +15,8 @@ body {
     background-color: rgb(223, 232, 235);
     margin: auto;
     padding:0 20px;
-    max-width:900px;
+    /* max-width:900px; */
+    width: 1000000px;
 }
 
 .headerbar{
@@ -81,27 +82,6 @@ body a:hover{
 }
 
 
-li{
-    margin-bottom: 0.7em;
-}
-
-
-
-.esb{
-    color:rgb(57, 123, 181);
-
-}
-
-
-.es{
-    color:rgb(181, 57, 98);
-    
-}
-
-
-.eb{
-    color:rgb(121, 181, 57);
-}
 
 
 
@@ -110,51 +90,15 @@ li{
 
 
 
-#title_esb{
-    color:rgb(57, 123, 181);
-    font-weight: bold;
-    font-size: 19px;
-}
-
-#title_es{
-    color:rgb(181, 57, 98);
-    font-weight: bold;
-    font-size: 19px;
-}
-
-#title_eb{
-    color:rgb(121, 181, 57);
-    font-weight: bold;
-    font-size: 19px;
-}
 
 
 
 
 
-
-#theory{
-    font-weight: bold;
-    font-size: 19px;
-}
-
-
-.day_title{
-    text-decoration: rgba(240, 25, 10, 0.384) underline dashed;
-   -webkit-text-decoration: rgba(240, 25, 10, 0.384) underline dashed;
-   margin: 0 0 0 0;
-   font-weight: 500;
-    /* font-size: 100%; */
-}
 
 div.text{
     margin-bottom: 3em;
 }
-
-/* img.sticker-turtle{
-    display: block;
-   width: 50px;
-} */
 
 blockquote{
     display: block;
