@@ -17,6 +17,7 @@ body {
     padding:0 20px;
     /* max-width:900px; */
     width: 1000000px;
+    /* max-height: 600px; */
 }
 
 .headerbar{
@@ -82,13 +83,54 @@ body a:hover{
 }
 
 
+.content{
+    background-color:rgb(236, 236, 236);
+    margin:  5px;
+    display: block;
+}
 
 
+.title{
+    text-decoration: underline dashed;
+}
 
 
+#title_th{
+    color:rgb(228, 20, 93);
+}
+
+#title_my{
+    color:rgb(146, 114, 11);
+}
+#title_sy{
+    color:rgb(127, 165, 32);
+}
+#title_ik{
+    color:rgb(32, 122, 218);
+}
+#title_ts{
+    color:rgb(20, 182, 87);
+}
+#title_km{
+    color:rgb(245, 106, 0);
+}
+
+.lyric{
+    color: darkgray;
+    font-style: italic;
+    font-size: 14px;
+}
 
 
+.ver1{
+    margin: 0;
+    margin-left: 10px;
+}
 
+.ver2{
+    margin: 0;
+    margin-left: 10px;
+}
 
 
 
