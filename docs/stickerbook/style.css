@@ -3,6 +3,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');
 
+::selection {
+  background-color: rgb(237, 237, 226);
+  color: #fff;
+}
 body {
     font-family: "Zen Maru Gothic", serif;
     background-color: rgb(237, 237, 226);

@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+::selection {
+  background-color: rgb(159, 184, 177);
+  color: #fff;
+}
 
 html{
     scroll-behavior: smooth;

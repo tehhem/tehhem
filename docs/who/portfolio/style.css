@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/earlyaccess/notosansjp.css');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
 
+::selection {
+  background-color: rgb(159, 184, 177);
+  color: #fff;
+}
 body {
     font-family: 'Noto Sans JP', sans-serif;
     background-color: rgb(223, 232, 235);

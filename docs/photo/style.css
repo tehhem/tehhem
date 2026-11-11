@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
 
+::selection {
+  background-color: rgb(159, 184, 177);
+  color: #fff;
+}
 body {
     font-family: 'Noto Sans JP', sans-serif;
     /* font-family: "Klee One", cursive; */
